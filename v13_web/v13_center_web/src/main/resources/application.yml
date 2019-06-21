@@ -9,6 +9,12 @@ server:
 spring:
   thymeleaf:
     cache: false
+  rabbitmq:
+    host: 101.132.71.169
+    port: 5672
+    username: kdx
+    password: 123123
+    virtual-host: /kdx
 
 pagehelper:
   helper-dialect: mysql
@@ -24,4 +30,5 @@ fdfs:
   tracker-list: 101.132.71.169:22122
 image:
   url: http://101.132.71.169/
+
 

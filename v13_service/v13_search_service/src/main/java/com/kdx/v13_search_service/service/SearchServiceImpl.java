@@ -68,6 +68,12 @@ public class SearchServiceImpl implements ISearchService {
         return new ResultBean("404", "同步数据成功！！！");
     }
 
+    /**
+     * 根据关键字查询solr服务器
+     * @param keyword
+     * @param start
+     * @return
+     */
     @Override
     public ResultBean queryByKeyword(String keyword, int start) {
 
@@ -138,6 +144,11 @@ public class SearchServiceImpl implements ISearchService {
 
 }
 
+    /**
+     * 添加商品时根据id往solr服务器存放信息
+     * @param id
+     * @return
+     */
     @Override
     public ResultBean updateById(int id) {
         SolrInputDocument document = new SolrInputDocument();

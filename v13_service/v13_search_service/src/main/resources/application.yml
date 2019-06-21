@@ -25,6 +25,7 @@ spring:
     solr:
       host: http://101.132.71.169:8088/solr/
 
+
 public-key: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKrrHlcvSmDTXkywJVuzjffrTFKy3eCFqhkPbqRIhyxMwDS0IaccGGghmKpcKEBKRpyJeyFjAv4B02+dGj8UINcCAwEAAQ==
 
 pagehelper:

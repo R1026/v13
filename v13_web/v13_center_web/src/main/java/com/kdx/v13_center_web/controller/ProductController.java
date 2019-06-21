@@ -4,10 +4,13 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.github.pagehelper.PageInfo;
 import com.kdx.api.IProductService;
 import com.kdx.api.ISearchService;
+import com.kdx.common.constant.RabbitMQConstant;
 import com.kdx.common.pojo.ResultBean;
 import com.kdx.common.util.HttpClientUtil;
 import com.kdx.entity.TProduct;
 import com.kdx.pojo.TProductVO;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
@@ -28,6 +31,9 @@ public class ProductController {
 
     @Reference
     private ISearchService searchService;
+
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
 
     @RequestMapping("get/{id}")
     @ResponseBody
@@ -58,9 +64,16 @@ public class ProductController {
         int result = productService.addProduct(tProductVO);
         //数据增量同步
         //根据id获得商品信息，往搜索服务器添加新增商品信息
-        searchService.updateById(result);
+        //searchService.updateById(result);
+
         //通过HttpClient伪造浏览器访问生成静态页的地址，添加商品静态页
-        String str = HttpClientUtil.doGet("http://localhost:9093/item/creatHTMLById/"+result);
+        //String str = HttpClientUtil.doGet("http://localhost:9093/item/creatHTMLById/"+result);
+
+        //更改为rabbitmq异步操作
+        rabbitTemplate.convertAndSend(RabbitMQConstant.PRODUCT_CENTER_EXCHANGE,"product.add",result);
+        //更改为rabbitmq异步操作
+        String str = "http://localhost:9093/item/creatHTMLById/"+result;
+        rabbitTemplate.convertAndSend(RabbitMQConstant.PRODUCT_CENTER_EXCHANGE,"add_item",str);
         return "redirect:/product/page/1";
     }
 
@@ -98,8 +111,6 @@ public class ProductController {
 
         System.out.println(id);
         TProduct product = productService.selectByPrimaryKey(id);
-
-
 
         return new ResultBean("200",product);
     }

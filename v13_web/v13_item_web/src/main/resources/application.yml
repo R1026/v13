@@ -8,3 +8,10 @@ dubbo:
   registry:
     protocol: zookeeper
     address: 101.132.71.169:2181
+spring:
+  rabbitmq:
+    host: 101.132.71.169
+    port: 5672
+    username: kdx
+    password: 123123
+    virtual-host: /kdx
