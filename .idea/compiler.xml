@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="v13_center_web" />
+        <module name="v13_common" />
+        <module name="v13_entity" />
+        <module name="v13_index_web" />
+        <module name="v13_item_web" />
+        <module name="v13_mapper" />
+        <module name="v13_product_api" />
+        <module name="v13_product_service" />
+        <module name="v13_rabbitmq" />
+        <module name="v13_search_api" />
+        <module name="v13_search_service" />
+        <module name="v13_search_web" />
+        <module name="v13_service" />
+        <module name="v13_springboot_rabbitmp" />
+        <module name="v13_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="v13" target="1.5" />
+      <module name="v13_api" target="1.5" />
+      <module name="v13_basic" target="1.5" />
+      <module name="v13_center_web" target="1.8" />
+      <module name="v13_common" target="1.8" />
+      <module name="v13_entity" target="1.5" />
+      <module name="v13_index_web" target="1.8" />
+      <module name="v13_item_web" target="1.8" />
+      <module name="v13_mapper" target="1.8" />
+      <module name="v13_product_api" target="1.5" />
+      <module name="v13_product_service" target="1.8" />
+      <module name="v13_product_type_service" target="1.8" />
+      <module name="v13_productType_api" target="1.5" />
+      <module name="v13_rabbitmq" target="1.5" />
+      <module name="v13_search_api" target="1.5" />
+      <module name="v13_search_service" target="1.8" />
+      <module name="v13_search_web" target="1.8" />
+      <module name="v13_service" target="1.5" />
+      <module name="v13_springboot_rabbitmp" target="1.8" />
+      <module name="v13_temp" target="1.5" />
+      <module name="v13_web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

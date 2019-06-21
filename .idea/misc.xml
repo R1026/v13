@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/v13_service/v13_product_service/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/v13_web/v13_center_web/pom.xml" />
+        <option value="$PROJECT_DIR$/v13_web/v13_index_web/pom.xml" />
+        <option value="$PROJECT_DIR$/v13_service/v13_search_service/pom.xml" />
+        <option value="$PROJECT_DIR$/v13_web/v13_search_web/pom.xml" />
+        <option value="$PROJECT_DIR$/v13_web/v13_item_web/pom.xml" />
+        <option value="$PROJECT_DIR$/v13_temp/v13_springboot_rabbitmp/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/v13_api/v13_productType_api/pom.xml" />
+        <option value="$PROJECT_DIR$/v13_temp/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

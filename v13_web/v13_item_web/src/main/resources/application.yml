@@ -1,0 +1,10 @@
+server:
+  port: 9093
+  servlet:
+    context-path: /
+dubbo:
+  application:
+    name: item_web
+  registry:
+    protocol: zookeeper
+    address: 101.132.71.169:2181

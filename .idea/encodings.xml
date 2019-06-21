@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v13_basic/v13_mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v13_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v13_service/v13_product_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v13_service/v13_search_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v13_temp/v13_springboot_rabbitmp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v13_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v13_web/v13_center_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v13_web/v13_index_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v13_web/v13_item_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v13_web/v13_search_web" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

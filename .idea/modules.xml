@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13.iml" filepath="$PROJECT_DIR$/v13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_api/v13_api.iml" filepath="$PROJECT_DIR$/v13_api/v13_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_basic/v13_basic.iml" filepath="$PROJECT_DIR$/v13_basic/v13_basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_web/v13_center_web/v13_center_web.iml" filepath="$PROJECT_DIR$/v13_web/v13_center_web/v13_center_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_basic/v13_common/v13_common.iml" filepath="$PROJECT_DIR$/v13_basic/v13_common/v13_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_basic/v13_entity/v13_entity.iml" filepath="$PROJECT_DIR$/v13_basic/v13_entity/v13_entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_web/v13_index_web/v13_index_web.iml" filepath="$PROJECT_DIR$/v13_web/v13_index_web/v13_index_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_web/v13_item_web/v13_item_web.iml" filepath="$PROJECT_DIR$/v13_web/v13_item_web/v13_item_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_basic/v13_mapper/v13_mapper.iml" filepath="$PROJECT_DIR$/v13_basic/v13_mapper/v13_mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_api/v13_product_api/v13_product_api.iml" filepath="$PROJECT_DIR$/v13_api/v13_product_api/v13_product_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_service/v13_product_service/v13_product_service.iml" filepath="$PROJECT_DIR$/v13_service/v13_product_service/v13_product_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_temp/v13_rabbitmq/v13_rabbitmq.iml" filepath="$PROJECT_DIR$/v13_temp/v13_rabbitmq/v13_rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_api/v13_search_api/v13_search_api.iml" filepath="$PROJECT_DIR$/v13_api/v13_search_api/v13_search_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_service/v13_search_service/v13_search_service.iml" filepath="$PROJECT_DIR$/v13_service/v13_search_service/v13_search_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_web/v13_search_web/v13_search_web.iml" filepath="$PROJECT_DIR$/v13_web/v13_search_web/v13_search_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_service/v13_service.iml" filepath="$PROJECT_DIR$/v13_service/v13_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_temp/v13_springboot_rabbitmp/v13_springboot_rabbitmp.iml" filepath="$PROJECT_DIR$/v13_temp/v13_springboot_rabbitmp/v13_springboot_rabbitmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_temp/v13_temp.iml" filepath="$PROJECT_DIR$/v13_temp/v13_temp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13_web/v13_web.iml" filepath="$PROJECT_DIR$/v13_web/v13_web.iml" />
+    </modules>
+  </component>
+</project>
